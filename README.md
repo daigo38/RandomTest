@@ -22,4 +22,20 @@ The poker test involves dividing a long bit string into sub-sequences and checki
 In the consecutive runs test, we count the number of consecutive increasing and decreasing sequences in the random number array. Specifically, we count "up runs" when the next number is greater than the previous number, and "down runs" when the next number is less than the previous number.
 
 # Usage
-To run this program, please click 'open in Colab' and run all cells.
+To run this program, please click 'Open in Colab' and run all cells.
+
+This program uses threading to generate a sequence of random integers using the OpenAI GPT-3 API. The generated sequence is then used to perform three tests:
+
+1. Uniform distribution test
+2. Poker test with Chi-square test
+3. Consecutive runs test
+
+To use this program, follow these steps:
+
+1. Set the `array_length` variable to the desired length of the sequence.
+2. Replace `***` in `openai.api_key = "***"` with your own OpenAI API key.
+3. Run the program.
+4. The program will generate a sequence of random integers using the GPT-3 API, and then perform the three tests on the generated sequence.
+5. The program will output the generated sequence, its length, and the results of the three tests.
+
+Note: Please make sure to click "open in Colab" and run all cells to use this program.
