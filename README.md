@@ -1,4 +1,4 @@
-# ChatGPT: An Incapability for Generating Random Numbers
+# ChatGPT is unable to generate random numbers
 
 
 # Program Overview
